@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python / Streamlit
+__pycache__/
+*.pyc
+webapp/.streamlit/
+
+# Data + outputs (all)
+data/
+outputs/
+Code/outputs/
+
+# VSCode
+.vscode
