@@ -1,0 +1,31 @@
+measure,snapshot_year,facilities,avg_score,median_score
+Discharge to Community Rate,2022,53,52.40698113207547,53.03
+Discharge to Community Rate,2023,68,51.56164763458401,52.06
+Discharge to Community Rate,2024,69,48.68252717391304,48.03
+Discharge to Community Rate,2025,64,50.9325,53.71
+Fall with Major Injury Rate,2022,69,1.2652173913043478,1.0
+Fall with Major Injury Rate,2023,69,1.2253632760898283,0.9
+Fall with Major Injury Rate,2024,68,1.1136425648021828,0.7
+Fall with Major Injury Rate,2025,67,1.0835820895522388,0.94
+Healthcare-Associated Infection Rate,2022,69,8.09608695652174,8.05
+Healthcare-Associated Infection Rate,2023,69,8.058197596795727,8.03
+Healthcare-Associated Infection Rate,2024,66,7.807507246376812,7.3
+Healthcare-Associated Infection Rate,2025,61,7.408852459016393,7.06
+Medicare Spending Per Beneficiary (MSPB),2022,69,1.201449275362319,1.17
+Medicare Spending Per Beneficiary (MSPB),2023,69,1.1959947299077733,1.17
+Medicare Spending Per Beneficiary (MSPB),2024,69,1.167536813922356,1.14
+Medicare Spending Per Beneficiary (MSPB),2025,67,1.1632835820895522,1.16
+Medication Review Rate,2022,69,93.37971014492753,97.8
+Medication Review Rate,2023,69,94.09735799207397,98.4
+Medication Review Rate,2024,68,95.50927694406549,99.1
+Medication Review Rate,2025,67,97.39537313432835,100.0
+Mobility at Discharge,2024,64,44.6390625,42.849999999999994
+Pressure Ulcer Rate,2022,69,3.4556521739130432,2.92
+Pressure Ulcer Rate,2023,69,3.013117569352708,2.7
+Pressure Ulcer Rate,2024,68,2.5574351978171896,2.1
+Pressure Ulcer Rate,2025,67,2.617611940298507,2.04
+Preventable Readmission Rate,2022,64,7.8609375,7.85
+Preventable Readmission Rate,2023,69,8.424537815126051,7.9
+Preventable Readmission Rate,2024,69,10.726117804551539,10.61
+Preventable Readmission Rate,2025,66,10.770606060606061,10.385000000000002
+Self-Care at Discharge,2024,64,49.540625,50.75

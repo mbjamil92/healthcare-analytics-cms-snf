@@ -8,7 +8,6 @@ webapp/.streamlit/
 
 # Data + outputs (all)
 data/
-outputs/
 Code/outputs/
 
 # VSCode
