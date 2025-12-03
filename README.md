@@ -1,9 +1,9 @@
 ## SNF Multi-Year Runner
-Runs Kyahn’s measure set across all provider archives and an optional live CMS pull.
+Runs a consolidated set of CMS Skilled Nursing Facility (SNF) quality measures across all archived provider files and an optional live CMS API pull.
 
 How to run (from repo root):
 python Code/snf_multi_year_runner.py \
-  --county data/raw/Ballad-counties.csv \
+  --county data/raw/counties.csv \
   --archive-dir data/archive \
   --output-dir outputs \
   --include-live   # drop this flag to skip the live API pull
@@ -11,7 +11,7 @@ python Code/snf_multi_year_runner.py \
 What it does:
 - Loads all provider CSVs matching Skilled_Nursing_Facility_Quality_Reporting_Program_Provider_Data_*.csv under data/archive/.
 - Optionally pulls the current CMS snapshot (fykj-qjee).
-- Coalesces county/state columns and filters to Ballad counties.
+- Coalesces county/state columns and filters to counties in the data/archive/counties.csv file
 - Pivots target measures, builds per-facility tables, and writes:
   - outputs/snf_multi_year_quality.csv
   - outputs/snf_trend_summary.csv
