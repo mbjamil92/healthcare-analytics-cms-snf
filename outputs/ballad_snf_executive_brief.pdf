@@ -1,0 +1,72 @@
+%PDF-1.4
+1 0 obj<< /Type /Catalog /Pages 2 0 R >>endobj
+2 0 obj<< /Type /Pages /Kids [3 0 R] /Count 1 >>endobj
+3 0 obj<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>endobj
+4 0 obj<< /Length 1723 >>stream
+BT
+/F1 14 Tf
+72 742 Td
+14 TL
+(Ballad SNF QRP Executive Brief \\(2022-2025\\)) Tj
+T*
+(Prepared: 2025-12-03) Tj
+T*
+(Data: outputs/snf_trend_summary.csv \\(averages and medians by year\\)) Tj
+T*
+(Key takeaways:) Tj
+T*
+(- Discharge to Community: 52.41% -> 50.93% \\(down 1.47\\).) Tj
+T*
+(  Average dipped in 2024 then recovered in 2025; 2025 median \\(53.71%\\) leads average.) Tj
+T*
+(- Preventable Readmissions: 7.86% -> 10.77% \\(up 2.91\\).) Tj
+T*
+(  Steady increase to ~10.77% by 2025; priority for intervention.) Tj
+T*
+(- Medication Review: 93.38% -> 97.40% \\(up 4.02\\).) Tj
+T*
+(  Climbs to 97.40% avg with 100% median in 2025?strength to leverage.) Tj
+T*
+(- Falls with Major Injury: 1.27% -> 1.08% \\(down 0.18\\).) Tj
+T*
+(  Gradual reductions; sustain fall-prevention playbook.) Tj
+T*
+(- Pressure Ulcer: 3.46% -> 2.62% \\(down 0.84\\).) Tj
+T*
+(  Downward trend overall with slight 2025 uptick vs 2024 low.) Tj
+T*
+(- Healthcare-Associated Infection: 8.10% -> 7.41% \\(down 0.69\\).) Tj
+T*
+(  Declining but still material risk area.) Tj
+T*
+(- MSPB \\(Efficiency\\): 1.20 -> 1.16 \\(down 0.04\\).) Tj
+T*
+(  Small efficiency gains without apparent quality reversal.) Tj
+T*
+(- Functional baselines \\(2024\\): Mobility avg 44.64, median 42.85; Self-Care avg 49.54, median 50.75.) Tj
+T*
+(Action starters:) Tj
+T*
+(- Target high-risk discharges with readmission bundle \\(early follow-ups, pharmacist med review, PCP warm handoffs\\).) Tj
+T*
+(- Spread best practices from top quartile facilities on falls/ulcers; monitor monthly dashboards.) Tj
+T*
+(- Set 2025 functional status targets and tie to therapy staffing/equipment readiness.) Tj
+T*
+(- Maintain infection-control focus while pursuing MSPB efficiency gains.) Tj
+T*
+ET
+endstream endobj
+5 0 obj<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000056 00000 n 
+0000000111 00000 n 
+0000000235 00000 n 
+0000002007 00000 n 
+trailer<< /Size 6 /Root 1 0 R >>
+startxref
+2075
+%%EOF
