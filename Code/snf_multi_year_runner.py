@@ -1,26 +1,34 @@
 """
+CMS SNF Quality – Multi-Year Loader & Trend Summarizer
 
-# SNF Quality Trends Starter (Ballad counties)
+Author: Bilal Jamil - Data Scientist
+Description:
+    This script processes publicly available CMS Skilled Nursing Facility (SNF)
+    Quality Reporting Program (QRP) datasets across multiple archived years and
+    optionally includes the latest CMS API snapshot (dataset: fykj-qjee).
 
-### Prepared by: Bilal Jamil (Data Science @ Ballad Health)
-### Prepared For: Kyahn Kamali (Chief Analytics Officer)
+Functionality:
+    - Loads all archived CMS SNF QRP CSVs located under data/archive/
+      (e.g., Skilled_Nursing_Facility_Quality_Reporting_Program_Provider_Data_*.csv)
+    - Optionally pulls the most recent CMS snapshot via API
+    - Standardizes county/state metadata and filters to a user-provided list
+      of counties (via --county)
+    - Pivots target quality and cost measures to create:
+        outputs/snf_multi_year_quality.csv
+        outputs/snf_trend_summary.csv
 
+Usage (run from repo root):
+    python Code/snf_multi_year_runner.py \
+        --county data/raw/counties.csv \
+        --archive-dir data/archive \
+        --output-dir outputs \
+        --include-live
 
-Introduction: SNF multi-year loader and trend summarizer.
-
-This script combines Kyahn's given code patterns with the logic of using all past years files:
- - Loads all local provider CSVs under data/archive/ (e.g., Skilled_Nursing_Facility_Quality_Reporting_Program_Provider_Data_*.csv) (these files needs to be downloaded manually)
- - Optionally pulls the current CMS snapshot via API (dataset fykj-qjee)
- - Coalesces state/county columns across files and filters to Ballad counties
- - Pivots target measures, builds per-facility tables, and exports:
-     outputs/snf_multi_year_quality.csv
-     outputs/snf_trend_summary.csv
-
-Run from repo root:
-  python Code/snf_multi_year_runner.py --county data/raw/Ballad-counties.csv --output-dir outputs --include-live
-
-Note: This assumes archives are already downloaded/unzipped into data/archive/.
+Notes:
+    - Requires CMS archive CSVs to be downloaded/unzipped into data/archive/
+    - Works for any region; simply update counties.csv as needed.
 """
+
 
 from __future__ import annotations
 
